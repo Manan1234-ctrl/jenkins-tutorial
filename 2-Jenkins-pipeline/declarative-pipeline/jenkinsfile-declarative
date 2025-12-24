@@ -22,5 +22,12 @@ pipeline {
                 sh 'echo "Deploying application..."'
             }
         }
+
+        stage('Ending Stage by Manan') {
+            steps {
+                // Deploy step (dummy for now)
+                sh 'echo "End of Pipeline by Manan"'
+            }
+        }
     }
 }

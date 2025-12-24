@@ -10,4 +10,7 @@ node {
     stage('Deploy') {
         sh 'echo "Deploying application..."'
     }
+    stage('Ending Stage') {
+        sh 'echo "End of Pipeline"'
+    }
 }

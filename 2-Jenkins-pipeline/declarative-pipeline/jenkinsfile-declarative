@@ -2,21 +2,21 @@ pipeline {
     agent any
     
     stages {
-        stage('Build') {
+        stage('Build by Manan') {
             steps {
                 // Run build commands
                 sh 'echo "Building project..."'
             }
         }
         
-        stage('Test') {
+        stage('Test by Manan') {
             steps {
                 // Run tests
                 sh 'echo "Running tests..."'
             }
         }
         
-        stage('Deploy') {
+        stage('Deploy by Manan') {
             steps {
                 // Deploy step (dummy for now)
                 sh 'echo "Deploying application..."'
